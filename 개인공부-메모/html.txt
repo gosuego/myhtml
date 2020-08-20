@@ -1,16 +1,16 @@
 <address></address>
 
 inline 
-ÇÑÁÙ¿¡ ¿Ã ¼ö ÀÖ´Ù.
+í•œì¤„ì— ì˜¬ ìˆ˜ ìˆë‹¤.
 span link img
 
 block
-¿·¿¡ ¾Æ¹«°Íµµ ¿Ã ¼ö ¾ø´Ù. 
+ì˜†ì— ì•„ë¬´ê²ƒë„ ì˜¬ ìˆ˜ ì—†ë‹¤. 
 
 <span>block</span>
 margin
 space
-ÀÚµ¿À¸·Î »ı±ä °ø°£
+ìë™ìœ¼ë¡œ ìƒê¸´ ê³µê°„
 body{
 margin:0;
 }
@@ -21,16 +21,21 @@ maigin-left:50px;
 
 padding
 
-border º¸Åë 1°¡Áö¸¸ ¾´´Ù.
-border style mdn/°Ë»ö
+border ë³´í†µ 1ê°€ì§€ë§Œ ì“´ë‹¤.
+border style mdn/ê²€ìƒ‰
 
 *{
-/*ÀüÃ¼¸¦ Àû¿ëÇÑ´Ù.*/
+/*ì „ì²´ë¥¼ ì ìš©í•œë‹¤.*/
 border: 1px dashed black;  
 }
 
 class
-¿ä¼Ò¸¦ °¡¸®Å³ ¼ö ÀÖÀ¸¸é¼­ °ãÄ¥ ¼ö ÀÖ´Â °Í ±×°Ô Å¬·¡½ºÀÌ´Ù.
+ìš”ì†Œë¥¼ ê°€ë¦¬í‚¬ ìˆ˜ ìˆìœ¼ë©´ì„œ ê²¹ì¹  ìˆ˜ ìˆëŠ” ê²ƒ ê·¸ê²Œ í´ë˜ìŠ¤ì´ë‹¤.
 
 (.) =class
 (#) = id 
+
+display: block;
+inline/none/block
+
+flexbox
