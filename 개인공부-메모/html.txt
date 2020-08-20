@@ -39,3 +39,4 @@ display: block;
 inline/none/block
 
 flexbox
+ display: flex;
