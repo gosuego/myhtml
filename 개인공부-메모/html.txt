@@ -79,7 +79,8 @@ flex 플럭스 -> 그리드
  우리가 배운 것을 써 먹어보자. 
 
  position은 레이아웃보다는 위치를 아주 조금 위로, 아주 조금 오른쪽으로 
- 옮기고 싶을 때 사용하는 것이다.
+ 옮기고 싶을 때 사용하는 것이다. 
+ default= static
 top
  left
  right
@@ -88,9 +89,34 @@ top
  posittion : fixed;
  선택자의 위치가 고정되어 있다. 
 
- position: relative;
+ * position: relative;
  top
  left
  width
 엘리먼트가 처음 놓인 자리에서 상하좌우로 움직인다. 
+
+
+ * position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 100px;
+부모가 absolute일 때 부모를 기준으로 원하는 좌표대로 옮길 수 있다. 
+top과 bottom 박스를 기준으로 옯겨진다.
+
+pseudo selectors
+
+first-child와 last-child를 선택할 수 있다.
+이렇게 하는 것이 class나 div를 만드는 것보다 훨씬 좋은 방법이다.
+HTML코드를 건들지 않고 CSS로만으로 바꿀 수 있다. 
+nth-child()
+odd(홀수)
+even(짝수)
+n+1 n에 다른 모든 숫자를 대입 할 수 있다.
+
+div > span{
+바로 밑에 자식 선택
+}
+p + span{
+p 다음에 오는 형제 span을 선택
+}
   
