@@ -80,5 +80,17 @@ flex 플럭스 -> 그리드
 
  position은 레이아웃보다는 위치를 아주 조금 위로, 아주 조금 오른쪽으로 
  옮기고 싶을 때 사용하는 것이다.
+top
+ left
+ right
+ bottom
+ 
+ posittion : fixed;
+ 선택자의 위치가 고정되어 있다. 
 
+ position: relative;
+ top
+ left
+ width
+엘리먼트가 처음 놓인 자리에서 상하좌우로 움직인다. 
   
