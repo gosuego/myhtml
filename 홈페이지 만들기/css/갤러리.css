@@ -1,0 +1,30 @@
+img {
+    width: 500px;
+    height: 350px;
+  }
+
+  .mySlides {
+    display: none;
+  }
+
+  a.leftbtn {
+    position: absolute;
+    top: 45%;
+    left: 0;
+  }
+
+  a.rightbtn {
+    position: absolute;
+    top: 45%;
+    right: 0;
+  }
+
+  div.large {
+    max-width: 100%;
+    position: relative;
+  }
+
+  div.small {
+    max-width: 500px;
+    position: relative;
+  }
