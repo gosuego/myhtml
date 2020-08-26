@@ -1,45 +1,107 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>이미지를 이용한 폴라로이드 효과 주기</title>
-<style>
-	body {margin:25px;}
-	div.title{
-		width: 300px;
-		text-align: center;
-	}
-	div.polaroid {
-		width: 300px;
-		height: 300px;
-		background-color: white;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
-		margin-bottom: 15px;
-	}
-	div.container {
-		text-align: center;
-		padding: 5px 5px;
-	}
-	img {
-		width:100%;
-		height:230px;
-	}
+  <head>
+    <meta charset="UTF-8" />
+    <title>이미지를 이용한 폴라로이드 효과 주기</title>
+    <link rel="stylesheet" href="css/stylelogin.css" />
+
+    <style>
+      body {
+        margin: 25px;
+      }
+      div.title {
+        width: 300px;
+        text-align: center;
+      }
+      div.polaroid {
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+        margin-bottom: 15px;
+      }
+      div.container {
+        text-align: center;
+        padding: 5px 5px;
+      }
+      img {
+        width: 100%;
+        height: 230px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo"><img src="image/w3c.png" /></div>
+        <ul class="sidemenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+    </header>
+    <nav>
+      <div class="container">
+        <ul class="leftMenu">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="polaroid.html">갤러리</a></li>
+          <li class="dropBox">
+            <a href="board.html">게시판</a>
+            <span class="dropmenu">
+              <span><a href="#">자유 게시판</a></span>
+              <span><a href="#">문의 게시판</a></span>
+              <span><a href="#">건의 게시판</a></span>
+            </span>
+          </li>
+          <li class="dropBox">
+            <a href="">멀티미디어</a>
+            <span class="dropmenu">
+              <span><a href="#">음악듣기</a></span>
+              <span><a href="#">동영상보기</a></span>
+            </span>
+          </li>
+          <li><a href="#">상품구매</a></li>
+          <li><a href="#">찾아오시는길</a></li>
+        </ul>
+        <ul class="rightMenu">
+          <li><a href="member.html">회원가입</a></li>
+          <li><a href="login.html">로그인</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="title"><h2>따라 그리는 명화</h2></div>
+    <div class="polaroid">
+      <img src="image/pic1.jpg" alt="WorkOfArt_1" />
+      <div class="container">
+        <p>카드놀이 하는 사람들 (미니 新)</p>
+      </div>
+    </div>
+    <div class="polaroid">
+      <img src="image/pic2.jpg" alt="WorkOfArt_2" />
+      <div class="container">
+        <p>길가의 집 (미니 新)</p>
+      </div>
+	</div>
 	
-</style>
-</head>
-<body>
-	<div class="title"><h2>따라 그리는 명화</h2></div>
-	<div class="polaroid">
-		<img src="image/pic1.jpg" alt="WorkOfArt_1">
+	<footer>
+		<div class="top">
 		<div class="container">
-			<p>카드놀이 하는 사람들 (미니 新)</p>
+			<span>다운로드</span>
+			<span>개인정보처리방침</span>
+			<span>저작권지침및신고</span>
+			<span>이메일무단수집거부</span>
+			</div>
 		</div>
-	</div>
-	<div class="polaroid">
-		<img src="image/pic2.jpg" alt="WorkOfArt_2">
 		<div class="container">
-			<p>길가의 집 (미니 新)</p>
-		</div>
-	</div>
-</body>
+			<strong>
+				Home : Location Log : Tag Log : Media Log : Guestbook :
+				Admin : New Post
+			</strong>
+			<div class="copyright">
+				COPYRIGHT &copy; w3c
+				BLOG IS POWERED BY DAUM / DESIGNED BY TISTORY
+			</div>
+		<div>
+		</footer>
+  </body>
 </html>
