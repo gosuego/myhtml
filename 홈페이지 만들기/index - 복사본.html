@@ -5,12 +5,9 @@
 <title>페이지 제작</title>
 <link rel="stylesheet" href="css/stylelogin.css">
 <style>
-	.imgBox{
-		/*position: relative; top:10px; left:600px;*/
-		padding:50px 350px;
-	}
-	h1, .imgBox{
-		text-align: center;
+	div{
+		display: inline;
+		float: right;
 	}
 </style>
 </head>
@@ -57,17 +54,70 @@
 	</nav>
 	<!--section-->
 	<section id="section1">
-	
+	<div class="container">
+		<div class="leftBox">
+			<div class="graph1">
+				<!--그래프1 추가-->
+				<div class="graph1" id="gr1">
+					<canvas id="graph1"></canvas>
+				  </div>
+			<script src="js/app.js"></script>
+			<script src="app.js"></script>
+			<div class="graph2">
+				<!--그래프2 추가-->
+				<canvas id="graph2"></canvas>
+			</div>
+		</div>
 		<div class="rightBox">
 			<div class="imgBox">
 				<!--이미지 추가-->
-				<p><img src="image/spongebob.png" alt="spongebob"
-				 align= "center" style="text-align: center;">
-			<h1><br>안녕 핑크풋에 온걸 환영해!<br> 귀여운 문구들을 구경해보지 않을래?</h1>
-			</p>
+				<img src="image/spongebob.png" align="center">
 			</div>
 			<div class="table">
 				<!--테이블 추가-->
+				<table>
+					<caption>미세먼지 농도</caption>
+					<thead>
+						<tr>
+							<th colspan="2">예보구간</th>
+							<th class="blue">좋음</th>
+							<th class="green">보통</th>
+							<th class="yellow">약간나쁨</th>
+							<th class="orange">나쁨</th>
+							<th class="red" colspan="2">매우나쁨</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td colspan="2">예측 농도</td>
+							<td>0~30</td>
+							<td>31~80</td>
+							<td>81~120</td>
+							<td>121~200</td>
+							<td>201~300</td>
+							<td>301 ~</td>
+						</tr>
+						<tr>
+							<td rowspan="2">행동 요령</td>
+							<td>노약자</td>
+							<td></td>
+							<td></td>
+							<td>장시간 실외 활동 가급적 자제</td>
+							<td>무리한 실외활동 자제요청 (특히 호흡기, 심질환자, 노약자)</td>
+							<td>실외활동 제한</td>
+							<td>실내생활</td>
+						</tr>
+						<tr>
+							<td>일반</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>장시간 무리한 실외활동 자제</td>
+							<td>실외활동 자제</td>
+							<td>실외활동 자제</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
 			  </div>
@@ -77,7 +127,7 @@
 	
 	<div class="clear"></div>
 	<!--footer-->
-	<script src="app.js"></script>
+	
 	<footer>
 	<div class="top">
 	<div class="container">
