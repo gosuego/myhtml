@@ -1,5 +1,5 @@
 # myhtml
-![demo](./image/pinkfoot.mov)
+![demo](./image/pinkfoot.gif)
 ## 연습해본 것들을 올려놓았습니다.
 
   - 홈페이지 만들어보기
