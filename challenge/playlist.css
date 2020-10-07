@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+.box {
+  border: 5px solid aquamarine;
+  width: 400px;
+  height: 800px;
+  margin: 15px;
+}
+.box__list {
+  margin: 25px;
+}
+.box__playlist {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  display: flex;
+}
+.box__playlist :nth-child(2) {
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 35%;
+}
+.random_love {
+  display: flex;
+}
+
+.random_love__picture {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: yellowgreen;
+}
+.random_love__picture i {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 55px;
+  padding-top: 45px;
+  color: aliceblue;
+}
+.random_love__picture :nth-child(3) {
+  font-size: 33px;
+}
+
+.random_love__text {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.random_love__text h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.play_buttons {
+  display: flex;
+  margin: 30px 0px;
+}
+.play_buttons__play {
+  border: 2px solid black;
+  width: 180px;
+  height: 60px;
+  text-align: center;
+}
+.play_buttons__heart {
+  height: 60px;
+  width: 60px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0px 25px;
+}
+.play_buttons__plus {
+  height: 60px;
+  width: 60px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 50%;
+}
