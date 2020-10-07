@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+.box {
+  border: 5px solid aquamarine;
+  width: 400px;
+  height: 800px;
+  margin: 15px;
+}
+.box__list {
+  margin: 25px;
+}
+.box__playlist {
+  margin-top: 60px;
+}
+.box__playlist :nth-child(2) {
+  font-size: larger;
+  font-weight: 900;
+  text-align: center;
+  align-items: center;
+}
