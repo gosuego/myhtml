@@ -12,10 +12,10 @@
 }
 .box__playlist {
   margin-top: 60px;
+  display: inline-flexbox;
 }
 .box__playlist :nth-child(2) {
   font-size: larger;
   font-weight: 900;
   text-align: center;
-  align-items: center;
 }
