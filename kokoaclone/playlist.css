@@ -13,12 +13,9 @@
 .box__playlist {
   margin-top: 60px;
   display: flex;
-
-  justify-content: center;
 }
 .box__playlist :nth-child(2) {
   font-size: larger;
   font-weight: 900;
-  text-align: center;
-  justify-content: center;
+  margin-left: 35%;
 }
